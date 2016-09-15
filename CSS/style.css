@@ -1,0 +1,208 @@
+html { 
+	height: 100%
+}
+
+body{ 
+  background-color: #FFFFFF;
+  margin:0px 0px; 
+  height: 100%;
+}
+
+#wrapper{
+	margin: auto;
+	padding-top: 5%;
+}
+
+@font-face {
+    font-family: Tiza; 
+	src: url('Fonts/tiza.eot');
+	src: url('Fonts/tiza.eot?iefix') format('embedded-opentype'),
+	     url('Fonts/tiza.woff') format('woff'),
+	     url('Fonts/tiza.ttf') format('truetype'),
+	     url('Fonts/tiza.svg#webfont') format('svg');
+}
+
+@font-face {
+    font-family: Existence;
+    src: url('Fonts/Existence-UnicaseLight-webfont.eot');
+    src: url('Fonts/Existence-UnicaseLight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Fonts/Existence-UnicaseLight-webfont.woff') format('woff'),
+         url('Fonts/Existence-UnicaseLight-webfont.ttf') format('truetype'),
+         url('Fonts/Existence-UnicaseLight-webfont.svg#existenceunicase_light') format('svg');
+}
+
+#title{
+	font-family: Tiza;
+	font-size: 4em;
+	color: #000000;
+	text-align: center;
+}
+
+#subtitle{
+	padding-top: 15px;
+	font-family: Existence;
+	font-size: 1.5em;
+	text-align: center;
+	color: #000000;
+}
+
+#divider img{
+	display: block;
+	padding-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#content{
+	padding-top:20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#image1{
+	position: relative;
+	height: 201px;
+	width: 201px;
+}
+
+#image1 img {
+	position: absolute;
+	padding: 10px;
+	-webkit-transition: opacity 0.8s ease-in-out;
+	-moz-transition: opacity 0.8s ease-in-out;
+	-o-transition: opacity 0.8s ease-in-out;
+	transition: opacity 0.8s ease-in-out;
+}
+
+#image1 img.top:hover {
+	opacity:0;
+}
+
+#image2{
+	position: relative;
+	height: 201px;
+	width: 201px;
+}
+
+#image2 img {
+	position: absolute;
+	padding: 10px;
+	-webkit-transition: opacity 0.8s ease-in-out;
+	-moz-transition: opacity 0.8s ease-in-out;
+	-o-transition: opacity 0.8s ease-in-out;
+	transition: opacity 0.8s ease-in-out;
+}
+
+#image2 img.top:hover {
+	opacity:0;
+}
+
+#image3{
+	position: relative;
+	height: 201px;
+	width: 201px;
+}
+
+#image3 img {
+	position: absolute;
+	padding: 10px;
+	-webkit-transition: opacity 0.8s ease-in-out;
+	-moz-transition: opacity 0.8s ease-in-out;
+	-o-transition: opacity 0.8s ease-in-out;
+	transition: opacity 0.8s ease-in-out;
+}
+
+#image3 img.top:hover {
+	opacity:0;
+}
+
+#image4{
+	position: relative;
+	height: 201px;
+	width: 201px;
+}
+
+#image4 img {
+	position: absolute;
+	padding: 10px;
+	-webkit-transition: opacity 0.8s ease-in-out;
+	-moz-transition: opacity 0.8s ease-in-out;
+	-o-transition: opacity 0.8s ease-in-out;
+	transition: opacity 0.8s ease-in-out;
+}
+
+#image4 img.top:hover {
+	opacity:0;
+}
+
+#image5{
+	position: relative;
+	height: 201px;
+	width: 201px;
+}
+
+#image5 img {
+	position: absolute;
+	padding: 10px;
+	-webkit-transition: opacity 0.8s ease-in-out;
+	-moz-transition: opacity 0.8s ease-in-out;
+	-o-transition: opacity 0.8s ease-in-out;
+	transition: opacity 0.8s ease-in-out;
+}
+
+#image5 img.top:hover {
+	opacity:0;
+}
+
+#image6{
+	position: relative;
+	height: 201px;
+	width: 201px;
+}
+
+#image6 img {
+	position: absolute;
+	padding: 10px;	
+	-webkit-transition: opacity 0.8s ease-in-out;
+	-moz-transition: opacity 0.8s ease-in-out;
+	-o-transition: opacity 0.8s ease-in-out;
+	transition: opacity 0.8s ease-in-out;
+}
+
+#image6 img.top:hover {
+	opacity:0;
+}
+
+#badge img{
+	display: block;
+	padding-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#push { 
+	height: 15em;
+}
+
+
+#footer {
+	background-color: #000000;
+	width: 100%;
+	color: #FFFFFF;
+	text-align: center;
+	font-family: Existence;
+	padding-top: 60px;
+	height: 20em; 
+}
+
+
+#footer a:link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+#footer a:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+}
